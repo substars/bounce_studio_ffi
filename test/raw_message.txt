@@ -1,0 +1,50 @@
+
+Return-Path: <>
+Received: from defiant.coinet.com ([204.245.234.17])
+          by detmail.somedomain.net (Post.Office MTA v3.5.3 release 223
+          ID# 0-65382U1000L100S0V35) with SMTP id net
+          for <joebob@joe.net>; Mon, 21 Aug 2000 14:07:48 -0700
+Received: (qmail 849 invoked for bounce); 21 Aug 2000 21:08:21 -0000
+Date: 21 Aug 2000 21:08:21 -0000
+From: MAILER-DAEMON@mail.coinet.com
+To: joebob@joe.net
+Subject: failure notice
+
+Hi. This is the mail transport agent at mail.coinet.com.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. If you have questions about this
+notice, please forward it to postmaster@coinet.com along with your comments.
+
+<wolfden@coinet.com>:
+Sorry, this account has been deactivated. (#5.2.1)
+
+--- Below this line is a copy of the message.
+
+Return-Path: <joebob@joe.net>
+Received: (qmail 841 invoked from network); 21 Aug 2000 21:08:21 -0000
+Received: from pool104.somedomain.com (HELO detcmail02.somedomain.net) (1.2.3.4)
+  by coinet.com with SMTP; 21 Aug 2000 21:08:21 -0000
+Received: from detcmail02 ([2.3.4.5]) by detcmail02.somedomain.net with Microsoft SMTPSVC(5.0.2172.1);
+	 Mon, 21 Aug 2000 14:08:20 -0700
+From: "JOE.NET" <joebob@joe.net>
+Reply-To: "JOE.NET" <some_reply@joe.net>
+To: <wolfden@coinet.com>
+Date: Mon, 21 Aug 00 14:08:20 -0700
+Subject: JOE.NET NEWS!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_Send_NextPart_180_03281976"
+Return-Path: joebob@joe.net
+Message-ID: <DETCMAIL02agW2wx6Di000110f7@DETcmail02.somedomain.net>
+X-OriginalArrivalTime: 21 Aug 2000 21:08:20.0944 (UTC) FILETIME=[EF5F8500:01C00BB3]
+
+This is a multi-part message in MIME format.
+
+
+------_=_Send_NextPart_180_03281976
+Content-Type: text/plain; charset=us-ascii
+
+Here's my test message.  This is the body of the message....  Cool....  Okay, bye!
+
+.
+
+
