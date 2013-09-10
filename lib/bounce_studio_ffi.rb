@@ -6,7 +6,7 @@ module BoogieTools
   class BounceStudio  
     module BounceStudioLib
       extend FFI::Library
-      ffi_lib "libBounceStudio32.so"
+      ffi_lib "libBounceStudio#{ENV['BOUNCE_STUDIO_MODE'] || '32'}.so"
       attach_function :bsBounceStudio_init, [], :int
       
       STRING_OUTPUT_METHODS = [:header, :subject, :body, :to_address, :to_friendly_name, :reply_to_address, :reply_to_friendly_name, :from_address, :from_friendly_name].freeze    
