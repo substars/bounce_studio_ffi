@@ -1,12 +1,12 @@
-# BounceStudioFfi
+# bounce\_studio\_ffi
 
-A Ruby FFI binding for the (commercial) [BounceStudio API 3.7 for Linux](http://www.boogietools.com/Products/Linux/)
+A Ruby FFI binding for the (commercial) [BounceStudio API 3.7 for Linux](http://www.boogietools.com/Products/Linux/). Designed to be compatible with the included native extension.
 
 ## Requirements
 
-* Ruby 1.9+
+* FFI-supporting Ruby 1.9+ (MRI/JRuby)
 * Linux
-* BounceStudio API
+* BounceStudio API libs
 
 ## Installation
 
@@ -26,6 +26,8 @@ Or install it yourself as:
 
 ## Usage
 
+    # 32-bit lib is used by default; set ENV['BOUNCE_STUDIO_MODE'] to 64 to use 64-bit lib before requiring
+    require 'bounce_studio_ffi'
     BS_LICENSE = "Foobar/1234567890"
     bs = BoogieTools::BounceStudio.new(BS_LICENSE)
     bs.check(raw_message_text)
@@ -34,6 +36,7 @@ Or install it yourself as:
     # are supported, e.g.
     bs.subject(raw_message_text)    
     bs.orig_custom_header(raw_message_text, 'x-subscriber')
+
 
 ## Contributing
 
