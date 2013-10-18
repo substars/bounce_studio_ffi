@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-    # 32-bit lib is used by default; set ENV['BOUNCE_STUDIO_MODE'] to 64 to use 64-bit lib before requiring
+    # 64-bit lib is used by default; set ENV['BOUNCE_STUDIO_MODE'] to 32 to use 32-bit lib before requiring
     require 'bounce_studio_ffi'
     BS_LICENSE = "Foobar/1234567890"
     bs = BoogieTools::BounceStudio.new(BS_LICENSE)
